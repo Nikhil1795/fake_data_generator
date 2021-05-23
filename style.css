@@ -1,0 +1,83 @@
+form{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+input, button
+{
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 15px!important;
+	width: 60%;
+	/*border-radius: 25px;*/
+	transition: .35s ease-in-out;
+}
+.submit_cls, .gen_btn
+{
+	transition: .35s ease-in-out;	
+}
+input:focus
+{
+	width: 80%;
+}
+input:hover
+{
+	background-color: #eeeeee57;
+	transform: scale(1.05);
+}
+.cen
+{
+	text-align: center;
+}
+.gen_btn, .submit_cls
+{
+	border-radius: 25px!important;
+}
+.pd0
+{
+	padding: 0px!important;
+}
+.bg_img
+{
+	background-image: url(../images/bg_img.jpg);
+	background-position: center;
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+}
+
+.bg_txt h4
+{
+	font-size: 3em;
+}
+.bg_txt p
+{
+	font-size: 1.5em;
+}
+.sec_pad{
+	padding: 30px 0px;
+}
+.txt_head
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+.txt_para
+{
+	font-size: 24px;
+}
+.txt_para li
+{
+	font-size: 24px;
+	list-style-type: circle;
+	text-align: left;
+}
+.dt-buttons
+{
+	display: inline-flex!important;
+}
+.dt-buttons button
+{
+	margin: 0px 25px;
+}
